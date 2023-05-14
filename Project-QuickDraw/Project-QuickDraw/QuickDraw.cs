@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using System.Reflection.Metadata.Ecma335;
 Random random = new Random();
 const string Menu = @" 
 Quick Draw 
