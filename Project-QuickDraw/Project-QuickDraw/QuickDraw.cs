@@ -11,39 +11,39 @@ Choose Your Opponent:
 [4] Harder...125 milliseconds";
 const string Wait = @" 
 
- _O                  O_
-|/|_      wait      _|\| 
-/\                    /\ 
-/ |                  | \ 
+   _O                  O_
+  |/|_      wait      _|\| 
+  /\                    /\ 
+  / |                  | \ 
 ------------------------------------------------------";
 const string Fire = @" 
 
-        ******** 
-        * FIRE * 
- _O     ********     O_ 
-|/|_                _|\| 
-/\      spacebar      /\ 
-/ |                  | \ 
+          ******** 
+          * FIRE * 
+   _O     ********     O_ 
+  |/|_                _|\| 
+  /\      spacebar      /\ 
+  / |                  | \ 
 ------------------------------------------------------"; 
 const string LoseTooSlow = @" 
 
                         > ╗__O 
-//         Too Slow        / \ 
-O/__/\     You Lose       /\ 
-     \                   | \ 
+  //         Too Slow        / \ 
+  O/__/\     You Lose       /\ 
+       \                   | \ 
 ------------------------------------------------------"; 
 const string LoseTooFast = @" 
 
-            Too Fast    > ╗__O 
-//         You Missed       / \ 
-O/__/\      You Lose       /\
-\                         | \ 
+              Too Fast    > ╗__O 
+  //         You Missed       / \ 
+  O/__/\      You Lose       /\
+        \                    | \ 
 ------------------------------------------------------"; 
 const string Win = @" 
-O__╔ < 
-/ \                         \\ 
-/\          You Win      /\__\O 
-/ |                      / 
+    O__╔ < 
+    / \                         \\ 
+    /\          You Win      /\__\O 
+   / |                     / 
 ------------------------------------------------------";
 while (true)
 {
